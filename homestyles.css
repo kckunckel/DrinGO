@@ -1,0 +1,25 @@
+.bar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: var(--box);
+    max-width: 342px;
+    margin: auto;
+    border-radius: 24px;
+    justify-content: space-around;
+}
+.bar--image{
+    width: 342px;
+    height: 193px;
+    grid-column: 1 / 4;
+    border-radius: 24px;
+}
+.bar--stars{
+    grid-column: 2/3;
+    border-left: 2px solid var(--orange);
+    padding-left: 15px;
+}
+.bar--category{
+    opacity: 0.68;
+}
+
+
