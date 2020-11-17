@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.107" height="35.551" viewBox="0 0 37.107 35.551">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb32a;
+      }
+    </style>
+  </defs>
+  <g id="shopping-cart" transform="translate(0.001 -10.735)">
+    <g id="Group_13" data-name="Group 13" transform="translate(-0.001 10.735)">
+      <g id="Group_12" data-name="Group 12" transform="translate(0 0)">
+        <path id="Path_34" data-name="Path 34" class="cls-1" d="M36.464,15.739a2.778,2.778,0,0,0-2.152-1.01H12.781a.8.8,0,0,0,0,1.6h21.53a1.171,1.171,0,0,1,.92.429,1.224,1.224,0,0,1,.254,1.013L32.292,33.733a1.206,1.206,0,0,1-1.176.969H13.358L6.026,12.628a2.84,2.84,0,0,0-2.7-1.893h0c-1.042.036-2.1.036-2.358.018A.8.8,0,0,0,.233,12.1c.247.247.331.331,3.121.234a1.229,1.229,0,0,1,1.159.811l7.51,22.609a.8.8,0,0,0,.758.547H31.116a2.8,2.8,0,0,0,2.741-2.24l3.2-15.982A2.819,2.819,0,0,0,36.464,15.739Z" transform="translate(0.001 -10.735)"/>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(11.982 34.701)">
+      <g id="Group_14" data-name="Group 14">
+        <path id="Path_35" data-name="Path 35" class="cls-1" d="M184.116,347.418h-14.54a1.218,1.218,0,0,1-1.12-.814l-1.558-4.634a.8.8,0,0,0-1.514.509l1.561,4.643a2.8,2.8,0,0,0,2.632,1.893h14.54a.8.8,0,1,0,0-1.6Z" transform="translate(-165.342 -341.426)"/>
+      </g>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(13.98 40.693)">
+      <g id="Group_16" data-name="Group 16">
+        <path id="Path_36" data-name="Path 36" class="cls-1" d="M195.7,424.1a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,195.7,424.1Zm0,3.994a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,195.7,428.1Z" transform="translate(-192.905 -424.104)"/>
+      </g>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(27.96 40.693)">
+      <g id="Group_18" data-name="Group 18">
+        <path id="Path_37" data-name="Path 37" class="cls-1" d="M388.607,424.1a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,388.607,424.1Zm0,3.994a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,388.607,428.1Z" transform="translate(-385.811 -424.104)"/>
+      </g>
+    </g>
+  </g>
+</svg>
