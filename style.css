@@ -1,0 +1,28 @@
+/* Variables */
+:root {
+    --tabbar: #171f29;
+    --box: #202C39;
+    --background: #283845;
+    --headline: #F2D492;
+    --orange: #ffb32a;
+    --yellow: #ffcd40;
+    --idle: #a6adc1;
+    --search: #2f4c64;
+}
+@font-face{
+    font-family: Avenir;
+    src: url(/fonts/Metropolis/Metropolis-Regular.otf);
+    font-family: Avenir-light;
+    src: url(/fonts/Metropolis/Metropolis-Light.otf);
+    font-family: Avenir-thin;
+    src: url(/fonts/Metropolis/Metropolis-Thin.otf);
+    font-family: Avenir-heavy;
+    src: url(/fonts/Metropolis/Metropolis-SemiBold.otf);
+    font-family: Avenir-medium;
+    src: url(/fonts/Metropolis/Metropolis-Medium.otf);
+    font-family: Avenir-black;
+    src: url(/fonts/Metropolis/Metropolis-Black.otf);
+}
+h1{
+    font-family: avenir-light;
+}
