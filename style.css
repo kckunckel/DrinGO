@@ -23,6 +23,10 @@
     font-family: Avenir-black;
     src: url(/fonts/Metropolis/Metropolis-Black.otf);
 }
+/* Base styles */ 
+*{
+    display: block;
+}
 h1{
     font-family: avenir-light;
 }
