@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="playsite.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="backbutton"><a href=""><img src="/media/backbutton.svg" alt="back button"></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <article class="valgmuligheder">
+            <h2><img src="media/credit-card.svg" alt="hævekort" class="option--one"></h2>
+            <h2><img src="media/paypal.svg" alt="paypal" class="option--two"></h2>
+        </article>
+        <article>
+            <section class="contaioner">
+                <section class="input--elements">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Incidunt iste sunt ratione dolore quae nobis beatae fuga 
+                        reprehenderit ipsam excepturi rerum aperiam voluptatibus 
+                        accusantium doloremque, ad officiis corrupti laudantium 
+                        eius? Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        . Quasi incidunt reprehenderit voluptatem voluptatibus. 
+                        Labore quisquam excepturi totam, iusto reiciendis pariatur
+                         necessitatibus aspernatur mollitia eum, ad harum atque 
+                         perferendis nihil explicabo.</p>
+
+                </section>
+            </section>
+        </article>
+        <article class="confirm">
+            <label for="confirm"></label>
+           <input type="button" value="Confirm Order" class="Confirm--button">
+
+        </article>
+    </main>
+
+    
+
+    <script>
+        document.querySelector(".backbutton").addEventListener("click", function(e){
+            e.preventDefault();
+            window.history.back();
+        })
+    </script>
+</body>
+</html>
