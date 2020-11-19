@@ -29,7 +29,7 @@ navbar styles only
 */
 
 .navbar {
-    background-color: #171f29;
+    background-color: var(--tabbar); 
     border-radius: 25px 25px 0 0;
     bottom: 0;
     position: fixed;
