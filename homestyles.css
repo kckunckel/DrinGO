@@ -5,8 +5,10 @@
     background-color: var(--box);
     max-width: 342px;
     margin: auto;
+    margin-bottom: 25px;
     border-radius: 24px;
     justify-content: space-around;
+
 }
 .bar--image{
     width: 342px;
@@ -22,3 +24,4 @@
 .bar--category{
     opacity: 0.68;
 }
+
