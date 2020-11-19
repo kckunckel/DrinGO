@@ -32,8 +32,8 @@
   
 }
 p{
-    margin-left: 36px;
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 10px;
     color: white;
     margin-top: 0px;
 }
@@ -48,25 +48,17 @@ h1{
 h3{
     font-size: 16px;
     color: var(--orange);
-    font-family: var(--heavy);
     grid-column: 2;
     margin: 0px;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
     margin-top: 5px;
+    margin-left: 10px;
 }
 h4{
-    font-size: 13px;
-    font-family: var(--heavy);
+    font-size: 11px;
     color: var(--orange);
     grid-column: 2;
     margin: 0px;
     margin-bottom: 7px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
-
-.drink_info p{
-    font-size: 10px;
-    margin: 0px;
-
-
-    margin-left: 35px;
