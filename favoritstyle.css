@@ -28,6 +28,8 @@
 .box--drinksimage{
     width: 65px;
     height: 141;
+    justify-self: center;
+    align-self: center;
 
   
 }
@@ -61,4 +63,18 @@ h4{
     margin: 0px;
     margin-bottom: 7px;
     margin-left: 10px;
+}
+body{
+    margin-bottom: 125px;
+}
+.headline--one{
+    font-size: 19px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+
+.headline--two{
+    font-size: 19px;
+    margin-left: 39px;
+    margin-bottom: 5px;
 }
