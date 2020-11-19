@@ -93,5 +93,12 @@ p{
     color: var(--orange);
 }
 h1{
-    font-family: avenir-light;
+    font-family: avenir;
 }
+h3{
+    font-family: avenir;
+}
+h4{
+    font-family: avenir;
+}
+

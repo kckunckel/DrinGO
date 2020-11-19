@@ -61,10 +61,12 @@ h4{
     grid-column: 2;
     margin: 0px;
     margin-bottom: 7px;
+    margin-left: 15px;
 }
 
 .drink_info p{
     font-size: 10px;
     margin: 0px;
 
-}
+
+    margin-left: 35px;
