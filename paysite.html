@@ -16,28 +16,27 @@
 
     <main>
         <article class="valgmuligheder">
-            <h2><img src="media/credit-card.svg" alt="hævekort" class="option--one"></h2>
-            <h2><img src="media/paypal.svg" alt="paypal" class="option--two"></h2>
+            <img src="media/credit-card.svg" alt="hævekort" class="option--one">
+            <img src="media/paypal.svg" alt="paypal" class="option--two">
         </article>
         <article>
             <section class="contaioner">
                 <section class="input--elements">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Incidunt iste sunt ratione dolore quae nobis beatae fuga 
-                        reprehenderit ipsam excepturi rerum aperiam voluptatibus 
-                        accusantium doloremque, ad officiis corrupti laudantium 
-                        eius? Lorem ipsum, dolor sit amet consectetur adipisicing elit
-                        . Quasi incidunt reprehenderit voluptatem voluptatibus. 
-                        Labore quisquam excepturi totam, iusto reiciendis pariatur
-                         necessitatibus aspernatur mollitia eum, ad harum atque 
-                         perferendis nihil explicabo.</p>
+                    <p class="grey name">Cardholder Name</p>
+                    <p class="orange name">Peter Petersen</p>
+                    <p class="grey number">Card Number</p>
+                    <p class="orange number">1234 - 5678 - 9876 - 5432</p>
+                    <p class="grey date">Exp Date</p>
+                    <p class="orange date ">01/23</p>
+                    <p class="grey CVC">CVC</p>
+                    <p class="orange CVC">*** <img src="/media/visibility.svg" alt="button to enable or disable the visibility of CVC"></p>
 
                 </section>
             </section>
         </article>
         <article class="confirm">
             <label for="confirm"></label>
-           <input type="button" value="Confirm Order" class="Confirm--button">
+           <input type="button" value="Confirm Order" class="confirm--button">
 
         </article>
     </main>
@@ -49,6 +48,7 @@
             e.preventDefault();
             window.history.back();
         })
+
     </script>
 </body>
 </html>
