@@ -1,0 +1,12 @@
+.zipcode {
+    width: 249px;
+    margin-left: 51px;
+    border-radius: 33px;
+    border: none;
+}
+
+.enterbutton {
+    display: inline;
+   border-radius: 0px 33px 33px 0px;
+   border: none;
+}
