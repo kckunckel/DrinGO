@@ -1,12 +1,40 @@
 .zipcode {
     width: 249px;
     margin-left: 51px;
-    border-radius: 33px;
+    border-radius: 33px 0 0 33px;
     border: none;
+    background-color: #202C39;
+    height: 52px;
+    text
+    
 }
 
 .enterbutton {
     display: inline;
    border-radius: 0px 33px 33px 0px;
    border: none;
+   width: 64px;
+   height: 52px;
+   background-color: #FFB32A;
+   font-family: Avenir;
+   font-size: 19px;
+}
+
+.logo{
+    display: block;
+    margin: 127.8px auto 82.7px auto;
+}
+
+.fronttext {
+    color: #FFD7BE;
+    text-align: center;
+    font-size: 25px;
+}
+
+::placeholder{
+    padding-left: 27px;
+    color: #A6ADC1;
+    font-family: Avenir-light;
+    font-size: 19px;
+    opacity: 0.5;
 }
