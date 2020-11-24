@@ -7,18 +7,70 @@
     font-family: New Athletic;
     color: white;
 }
+
+body {
+    background-color: #160126;
+    margin: 0;
+    padding: 0;
+}
+
+
 .promo{
-   max-width: 100%;
-   object-fit: cover;
-   float: none;
+    max-width: 100%;
+}
+
+.promotext.first{
+    margin-left: 346px;
+    margin-top: 70px;
+}
+
+.promotext.second{
+
+}
+
+.logo{
+    display: block;
 }
 
 .rectangle {
     display: block;
-    max-width: 100%;
-    margin: 214px auto 24px auto;
-
+    width: 138px;
 }
-body {
-    background-color: #160126;
+
+.rectangle.first{
+    margin: 150px auto 30px auto;
+}
+
+.rectangle.second{
+    margin: 200px 0 auto 346px;
+}
+
+.rectangle.third{
+    margin: 200px 346px 0 0;
+}
+
+h1.quote{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.homescreen, .favourites{
+width: 15%;
+}
+
+
+/*Vores "Footer"*/
+h1.end{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.end-section{
+    
 }
