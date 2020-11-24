@@ -32,13 +32,16 @@ header{
     grid-template-columns: 1fr 2fr 1fr 1fr;
     background-color: var(--box);
     border-radius: 24px;
+    height: 110px;
     padding-inline-start: 0;
     justify-content: space-around;
     margin: 0 20px 15px
+
 }
 .gt p{
     justify-self: center;
     align-self: center;
+    font-size: 12px;
 }
 .gt .navn{
     font-family: avenir-heavy;
@@ -46,11 +49,19 @@ header{
     align-self: center;
 }
 .gt .pris{
-
+font-size: 18px;
 }
 .drinks img{
     width: 39px;
     height: 85px;
     justify-self: center;
     align-self: center;
+}
+
+.negroni{
+    margin-bottom: 20px;
+}
+
+.drinks{
+    margin-bottom: 100px;
 }
