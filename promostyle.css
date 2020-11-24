@@ -15,7 +15,7 @@
 
 .rectangle {
     display: block;
-    width: 2;
+    max-width: 100%;
     margin: 214px auto 24px auto;
 
 }
