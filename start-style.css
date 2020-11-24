@@ -5,8 +5,6 @@
     border: none;
     background-color: #202C39;
     height: 52px;
-    text
-    
 }
 
 .enterbutton {
@@ -37,4 +35,10 @@
     font-family: Avenir-light;
     font-size: 19px;
     opacity: 0.5;
+}
+input{
+    font-family: avenir;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
 }
