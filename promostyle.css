@@ -1,3 +1,24 @@
 @font-face{
     font-family: New Athletic;
     src: url(/fonts/new_athletic_m54/New\ Athletic\ M54.ttf);
+}
+
+*{
+    font-family: New Athletic;
+    color: white;
+}
+.promo{
+   max-width: 100%;
+   object-fit: cover;
+   float: none;
+}
+
+.rectangle {
+    display: block;
+    width: 2;
+    margin: 214px auto 24px auto;
+
+}
+body {
+    background-color: #160126;
+}
