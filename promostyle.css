@@ -1,4 +1,4 @@
-@font-face{
+    @font-face{
     font-family: New Athletic;
     src: url(/fonts/new_athletic_m54/New\ Athletic\ M54.ttf);
 }
@@ -7,18 +7,102 @@
     font-family: New Athletic;
     color: white;
 }
-.promo{
-   max-width: 100%;
-   object-fit: cover;
-   float: none;
+
+body {
+    background-color: #160126;
+    margin: 0;
+    padding: 0;
 }
+
+.promo{
+    max-width: 100%;
+}
+
+.logo{
+    display: block;
+    grid-area: logo;
+    max-width: 200px;
+    margin-top: 37px;
+    margin-right: 150px;
+}
+
+.text-first {
+    grid-area: text-first;
+}
+
+.promotext.first{
+    margin-left: 346px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-areas: 
+    "text-first logo"
+    "text-first logo"
+    
+    ;
+}
+
+.promotext.second{
+    margin-left: 346px;
+}
+
+.features{
+    font-size: 50px;
+    margin: 20px 0 10px 0;
+}
+
+
 
 .rectangle {
     display: block;
-    width: 2;
-    margin: 214px auto 24px auto;
-
+    width: 138px;
 }
-body {
-    background-color: #160126;
+
+.rectangle.first{
+    margin: 150px auto 30px auto;
+}
+
+.rectangle.second{
+    margin: 400px 0 auto 346px;
+}
+
+.rectangle.third{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: 346px;
+}
+
+h1.quote{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.homescreen, .favourites{
+width: 15%;
+}
+
+
+
+
+/*Vores "Footer"*/
+h1.end{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.end-section{
+    text-align: center;
+}
+
+.oblique-rectangle{
+    height: 50px;
 }
