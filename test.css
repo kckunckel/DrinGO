@@ -6,6 +6,7 @@
 }
 h1, h2, h3, p {
     color: var(--orange);
+    font-family: avenir;
 }
 .title{
     font-family: avenir-light;
@@ -20,4 +21,13 @@ h1, h2, h3, p {
     border-radius: 20px;
     text-align: center;
     padding: 20px;
+}
+.quantity{
+    display: flex;
+}
+.amount{
+    align-self: center;
+}
+.price{
+    justify-items: flex-end;
 }
