@@ -1,4 +1,4 @@
-@font-face{
+    @font-face{
     font-family: New Athletic;
     src: url(/fonts/new_athletic_m54/New\ Athletic\ M54.ttf);
 }
@@ -46,7 +46,9 @@ body {
 }
 
 .rectangle.third{
-    margin: 200px 346px 0 0;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: 346px;
 }
 
 h1.quote{
