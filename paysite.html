@@ -15,29 +15,37 @@
     </header>
 
     <main>
-        <article class="valgmuligheder">
-            <img src="media/credit-card.svg" alt="hævekort" class="option--one">
-            <img src="media/paypal.svg" alt="paypal" class="option--two">
-        </article>
+        <section class="valgmuligheder">
+            <article class="card">
+                <img  src="media/credit-card.svg" alt="hævekort" class="option--one">
+            </article>
+            <article class="paypal">
+                <img  src="media/paypal.svg" alt="paypal" class="option--two">
+            </article>
+        </section>
         <article>
             <section class="contaioner">
                 <section class="input--elements">
-                    <p class="grey name">Cardholder Name</p>
-                    <p class="orange name">Peter Petersen</p>
-                    <p class="grey number">Card Number</p>
-                    <p class="orange number">1234 - 5678 - 9876 - 5432</p>
-                    <p class="grey date">Exp Date</p>
-                    <p class="orange date ">01/23</p>
-                    <p class="grey CVC">CVC</p>
-                    <p class="orange CVC">*** <img src="/media/visibility.svg" alt="button to enable or disable the visibility of CVC"></p>
-
+                         <p class="grey--name">Cardholder Name</p>
+                         <p class="orange--name">Peter Petersen</p>
+                         <p class="grey--number">Card Number</p>
+                         <p class="orange--number">1234 - 5678 - 9876 - 5432</p>
+                    <article class="sample">
+                        <article class="exp">
+                         <p class="grey--date">Exp Date</p>
+                         <p class="orange--date ">01/23</p>
+                        </article>
+                        <article class="exp">
+                         <p class="grey--date">CVC</p>
+                         <p class="orange--date">*** <img class="eye" src="/media/visibility.svg" alt="button to enable or disable the visibility of CVC"></p>
+                        </article>
+                        </article>
                 </section>
             </section>
         </article>
-        <article class="confirm">
+        <article class="confirm--button">
             <label for="confirm"></label>
-           <input type="button" value="Confirm Order" class="confirm--button">
-
+           <input type="button" value="Confirm Order" class="buttonstyle">
         </article>
     </main>
 
