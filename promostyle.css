@@ -14,7 +14,6 @@ body {
     padding: 0;
 }
 
-
 .promo{
     max-width: 100%;
 }
@@ -43,7 +42,12 @@ body {
 }
 
 .promotext.second{
+    margin-left: 346px;
+}
 
+.features{
+    font-size: 50px;
+    margin: 20px 0 10px 0;
 }
 
 
@@ -83,6 +87,8 @@ h2{
 .homescreen, .favourites{
 width: 15%;
 }
+
+
 
 
 /*Vores "Footer"*/
