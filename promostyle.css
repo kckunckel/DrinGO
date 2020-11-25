@@ -19,18 +19,34 @@ body {
     max-width: 100%;
 }
 
+.logo{
+    display: block;
+    grid-area: logo;
+    max-width: 200px;
+    margin-top: 37px;
+    margin-right: 150px;
+}
+
+.text-first {
+    grid-area: text-first;
+}
+
 .promotext.first{
     margin-left: 346px;
     margin-top: 70px;
+    display: grid;
+    grid-template-areas: 
+    "text-first logo"
+    "text-first logo"
+    
+    ;
 }
 
 .promotext.second{
 
 }
 
-.logo{
-    display: block;
-}
+
 
 .rectangle {
     display: block;
@@ -42,7 +58,7 @@ body {
 }
 
 .rectangle.second{
-    margin: 200px 0 auto 346px;
+    margin: 400px 0 auto 346px;
 }
 
 .rectangle.third{
@@ -56,8 +72,12 @@ h1.quote{
     text-align: center;
 }
 
+p{
+    font-size: 20px;
+}
+
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .homescreen, .favourites{
@@ -74,5 +94,9 @@ h1.end{
 }
 
 .end-section{
-    
+    text-align: center;
+}
+
+.oblique-rectangle{
+    height: 50px;
 }
