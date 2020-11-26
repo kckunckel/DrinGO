@@ -96,6 +96,11 @@ h1{
     font-family: avenir;
 }
 
+h2{
+    font-family: avenir;
+    color: var(--orange);
+}
+
 h3{
     font-family: avenir;
 }

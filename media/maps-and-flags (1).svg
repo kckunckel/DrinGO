@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.336" height="40.501" viewBox="0 0 29.336 40.501">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb32a;
+      }
+    </style>
+  </defs>
+  <g id="maps-and-flags_1_" data-name="maps-and-flags (1)" transform="translate(-70.573)">
+    <g id="Group_106" data-name="Group 106" transform="translate(70.573)">
+      <g id="Group_105" data-name="Group 105" transform="translate(0)">
+        <path id="Path_101" data-name="Path 101" class="cls-1" d="M85.241,0A14.685,14.685,0,0,0,70.573,14.668c0,10.037,13.127,24.773,13.685,25.4a1.321,1.321,0,0,0,1.965,0c.559-.622,13.685-15.358,13.685-25.4A14.685,14.685,0,0,0,85.241,0Zm0,37.158c-4.418-5.248-12.027-15.6-12.027-22.489a12.027,12.027,0,1,1,24.053,0C97.268,21.557,89.66,31.908,85.241,37.158Z" transform="translate(-70.573)"/>
+      </g>
+    </g>
+    <g id="Group_108" data-name="Group 108" transform="translate(77.861 7.288)">
+      <g id="Group_107" data-name="Group 107">
+        <path id="Path_102" data-name="Path 102" class="cls-1" d="M170.088,92.134a7.38,7.38,0,1,0,7.38,7.38A7.388,7.388,0,0,0,170.088,92.134Zm0,12.118a4.738,4.738,0,1,1,4.738-4.738A4.744,4.744,0,0,1,170.088,104.252Z" transform="translate(-162.708 -92.134)"/>
+      </g>
+    </g>
+  </g>
+</svg>
