@@ -4,7 +4,7 @@ h1 {
 
 .inputtext {
     text-align: center;
-    margin-top: 20px;
+
 }
 
 .input {
@@ -27,7 +27,15 @@ h1 {
 .inputcontainer {
     display: flex;
     justify-content: center;
-    margin-top: 50%;
+   
+}
+
+.container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 100%;
 }
 
 .input:focus{
