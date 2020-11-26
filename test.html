@@ -10,8 +10,6 @@
 </head>
 
 <body>
-    <a href="popup1"><img src="/media/plus.svg" alt="Plus sign"></a>
-
     <section class="popup1">
         <article id="popup" class="overlay">
 
@@ -21,25 +19,33 @@
     <section class="content">
         <section class="top">
             <ul>
-                <li class="backbutton"><a href=""><img src="/media/backbutton.svg" alt="back button"></a></li>
+                <li class="close-list"><a href=""><img class="close" src="/media/close.svg" alt="close"></a></li>
             </ul>
             <h1 class="title">TANQUERAY</h2>
         </section>
         <img class="hero" src="/media/tanqueray_n_rangpur.png" alt="Gin and Tonic">
-        <h1 class="drink">TANQUERAY LONDON DRY GIN & TONIC</h1>
-        <article class="container">
-            <h3 class="drink--price">DKK 120</h3>
-            <p class="drink--info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Saepe obcaecati, cupiditate eveniet voluptatibus
-                repellendus exercitationem</p>
-            <section class="quantity">
-                <img class="amount--minus" src="/media/minus-square.svg" alt="Minus">
-                <h3 class="amount">4</h3>
-                <img class="amount--add" src="/media/plus-square.svg" alt="Plus">
-                <h2 class="price">DKK 480</h2>
-            </section>
-            <img class="favorites" src="/media/Like.svg" alt="Add to favorites">
-            <h2 class="add">ADD</h2>
+        <article class="wrapper">
+            <section>
+                <h1 class="drink">TANQUERAY LONDON DRY GIN & TONIC</h1>
+                <article class="container">
+                    <h3 class="drink--price">DKK 120</h3>
+                    <p class="drink--info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe obcaecati, cupiditate eveniet voluptatibus
+                        repellendus exercitationem</p>
+                    <section class="quantity">
+                        <section class="quantity-container">
+                            <img class="amount--minus" src="/media/minus-square.svg" alt="Minus">
+                            <h3 class="amount">4</h3>
+                            <img class="amount--add" src="/media/plus-square.svg" alt="Plus">
+                        </section>
+                        <h2 class="price">DKK 480</h2>
+                    </section>
+                </section>
+                <section class="favourites-add">
+                    <img class="favourites" src="/media/Like.svg" alt="Add to favorites">
+                    <h2 class="add">ADD</h2>
+                </section>  
+            </article>
         </article>
     </section>
 </body>
