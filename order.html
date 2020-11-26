@@ -6,6 +6,20 @@
     <title>DrinGo'</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="test.css">
+    <style>
+        .modal{
+            position: fixed;
+            top: 100%;
+            transition: all .5s ease-in-out;
+        }
+
+        .title-oragne{
+            color: var(--orange);
+            opacity: 1;
+            margin: 15px auto 0 -5px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,7 +39,7 @@
                 <img src="/media/tanqueray_n_rangpur.png" alt="Gin & Tonic">
                 <p class="navn">TANGUERAY LONDON DRY GIN & TONIC</p>
                 <p class="pris">DKK 120</p>
-                <img src="/media/plus.svg" alt="Plus Icon">
+                <img class="btn" src="/media/plus.svg" alt="Plus Icon">
             </article>
             <article class="gt">
                 <img src="/media/tanqueray_ten.png" alt="Gin & Tonic">
@@ -56,12 +70,54 @@
         <li><a href=""><img src="/media/user.svg" alt="user"></a></li>
         </ul>
     </footer>
-
+    <aside class="modal">
+        <section class="content">
+            <section class="top">
+                <ul>
+                    <li class="close-list"><a href="" class="close-btn"><img class="close" src="/media/close.svg" alt="close"></a></li>
+                </ul>
+                <h1 class="title title-oragne">TANQUERAY</h2>
+            </section>
+            <img class="hero" src="/media/tanqueray_n_rangpur.png" alt="Gin and Tonic">
+            <article class="wrapper">
+                <section>
+                    <h2 class="drink">TANQUERAY LONDON DRY GIN & TONIC</h2>
+                    <article class="container">
+                        <h3 class="drink--price">DKK 120</h3>
+                        <p class="drink--info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Saepe obcaecati, cupiditate eveniet voluptatibus
+                            repellendus exercitationem</p>
+                        <section class="quantity">
+                            <section class="quantity-container">
+                                <img class="amount--minus" src="/media/minus-square.svg" alt="Minus">
+                                <h3 class="amount">4</h3>
+                                <img class="amount--add" src="/media/plus-square.svg" alt="Plus">
+                            </section>
+                            <h2 class="price">DKK 480</h2>
+                        </section>
+                    </section>
+                    <section class="favourites-add">
+                        <img class="favourites" src="/media/Like.svg" alt="Add to favorites">
+                        <h2 class="add">ADD</h2>
+                    </section>  
+                </article>
+            </article>
+        </section>
+    </aside>
     <script>
         document.querySelector(".backbutton").addEventListener("click", function(e){
             e.preventDefault();
             window.history.back();
         })
+
+        document.querySelector(".btn").addEventListener("click", function(){
+            document.querySelector(".modal").style.top = "0";
+        });
+
+        document.querySelector(".close-btn").addEventListener("click", function(e){
+            e.preventDefault();
+            document.querySelector(".modal").style.top = "100%";
+        });
     </script>
 </body>
 </html>
