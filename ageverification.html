@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="age-style.css">
 </head>
 <body>
-    <article>
+    <article class="container">
         <section class="inputtext">
             <h1>Old enough?</h1>
             <p>You need to be at least 18 years old to enter</p>
@@ -23,38 +23,37 @@
         </section>
     </article>
     <script>
-        var container = document.getElementById("third-input");
-        let last = document.getElementById("fourth-input");
+        var container = document.getElementsByClassName("inputcontainer")[0];
+        var last = document.getElementById("fourth-input");
 
         container.addEventListener("keyup", function(e){
             var target = e.srcElement || e.target;
             var maxlength = parseInt(target.attributes["maxlength"].value, 10);
+            var mylenght = target.value.length;
 
-            var length = target.value.length;
-            if(length === maxlength){
+            if(mylenght == maxlength){
                 var next = target;
-                console.log(next)
                 while(next = next.nextElementSibling){
-                    if(next == null)
-                        break;
-                    if(next.tagName.toLowerCase() === "input")
+                    if(next == null) break;
+                    if(next.tagName.toLowerCase() === "input"){
                         next.focus();
                         break;
-
-                    if(document.activeElement === last){
-                        if(last.value != ""){
-
-                        }
                     }
                 }
-            }else if(length === 0){
-                var previous = target;
-                while(previous = previous.previousElementSibling){
-                    if(previous == null)
+
+                if(document.activeElement === last){
+                    if(last.value != ""){
+                        window.location.href = "start.html";
+                    }
+                }
+            }else if(mylength === 0){
+                var prev = target;
+                while(prev = prev.previousElementSibling){
+                    if(prev == null) break;
+                    if(prev.tagName.toLowerCase === "null"){
+                        prev.focus;
                         break;
-                    if(previous.tagName.toLowerCase() === "input")
-                        previous.focus();
-                        break;
+                    }
                 }
             }
         })
